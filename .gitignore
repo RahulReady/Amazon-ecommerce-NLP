@@ -21,4 +21,5 @@
 #####################
 
 # Data
+# Right now inside data there should only be one directory: data/amazon_review_polarity_csv
 data/**
