@@ -16,12 +16,19 @@
 *.cpython
 *.pyc
 
+
+
 #####################
 # Project dependent #
 #####################
+
+# Virtual environment setup folder
+amazon-nlp-env/**
 
 # Data
 # Right now inside data there should only be one directory: data/amazon_review_polarity_csv
 data/**
 # Let's work with this folder for now
 amazon_review_polarity_csv/**
+
+
