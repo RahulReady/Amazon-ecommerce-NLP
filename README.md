@@ -2,15 +2,18 @@
 Amazon receives millions of reviews on all of their listed products. It would be useful for Amazon product owners to quickly know negative product reviews about their products. Not only would it be helpful to correctly classify negative reviews, but we also want to understand why the reviews are negative. This way product owners can take steps to recitfy issues as they arise which would increase customer satisfaction and generate additional revenue. 
 
 ## **Process for Text Classification:**
-1) Obtaining the Dataset: Navigate to https://course.fast.ai/datasets and click download for **Amazon Reviews: Polarity**. <br>
+1) Gathering the Dataset: Navigate to https://course.fast.ai/datasets and click download for **Amazon Reviews: Polarity**. <br>
     * There are 3 columns in the train/test data, corresponding to class index (1 or 2), review title, and review text. Class 1 corresponds to a negative classification and class 2 to a positive classification. Each class has 1,800,000 training samples and 200,000 testing samples. 
-2) Data preprocessing: 
+2) EDA
+   * Generate word cloud
+3) Data preprocessing: 
     * Normalize Feature text
-    * Vectorize text
-    * Convert labels      
-3) Modeling:
+    * Vectorize text    
+4) Modeling:
     * Logistic Regression
-    * Xgboost
+5) Extracting feature importance
+   * Top 10 words for positive and negative sentiments
+
 
 <br>
 ** Note - add more stuff 
