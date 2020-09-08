@@ -13,10 +13,9 @@ Amazon receives millions of reviews on all of their listed products. It would be
     * Logistic Regression
 5) Extracting feature importance
    * Top 10 words for positive and negative sentiments
-
-
-<br>
-** Note - add more stuff 
+   
+## **Running NLP_for_Customer_Reviews.ipynb**:
+   * execute command `jupyter notebook NLP_for_Customer_Reviews.ipynb`
 
 ## **Using AWS Comprehend for Text Classification:**
 1) Upload data to an S3 bucket
