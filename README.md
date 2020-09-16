@@ -1,8 +1,8 @@
-# Amaon NLP Tutorial Project
+# Amazon NLP Project
 
 ## Project Overview
 
-Amazon receives millions of reviews on all of their listed products. It would be useful for Amazon product owners to quickly know negative product reviews about their products. Not only would it be helpful to correctly classify negative reviews, but we also want to understand why the reviews are negative. This way product owners can take steps to recitfy issues as they arise which would increase customer satisfaction and generate additional revenue. 
+Amazon receives millions of reviews on all of their listed products. It would be useful for Amazon product owners to quickly know negative product reviews about their products. Not only would it be helpful to correctly classify negative reviews, but we also want to understand why the reviews are negative. This way product owners can take steps to rectify issues as they arise which would increase customer satisfaction and generate additional revenue. 
 
 ## Using Logistic Regression for Text Classification:
 
