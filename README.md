@@ -15,6 +15,7 @@ Amazon receives millions of reviews on all of their listed products. It would be
     * Vectorize text   
 4) Modeling:
     * Logistic Regression
+    * LSTM
 5) Extracting feature importance
    * Top 10 words for positive and negative sentiments
    
