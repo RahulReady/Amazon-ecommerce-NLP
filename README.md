@@ -18,8 +18,9 @@ Amazon receives millions of reviews on all of their listed products. It would be
     * LSTM
 5) Extracting feature importance
    * Top 10 words for positive and negative sentiments
-   
+
 ## Using Gensim for Topic Modeling:
+
 1) Import relevant **Amazon Reviews: Polarity** data
 2) Basic EDA
 3) Data preprocessing:  
@@ -65,9 +66,28 @@ On <ins>Windows</ins>, run:<br>
 4) Install the requirements with:<br> `pip install -r requirements.txt`
 4) Open the jupyter notebooks and change the kernal to the newly created virtual environment to run the code. <br>
 
+## Quick comparison of tools used in the project
+
+![Tools Comparison](./images/comprehend_comparison.png)
 
 ## Conclusions
-AWS Comprehend provides a simpler way to getting an out-of-the-box approach to work on text classification. If speed and ease of use is prioritized, then AWS Comprehend is the preferred approach. If an individual is worried about cost, then the training of data will have to be done locally with a lot more parameters to take into account. 
 
+*When should you use Comprehend?*
 
-**Note: Original Problem Statement: https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml/blob/master/Writeups/NLP:%20Text%20Classification.md
+As always, it all comes down to achieving the best quality/cost ratio.
+
+Large companies that have resources and need specific solutions that offer additional insights will prefer custom models. On the other hand, small-medimum sized companies that will prioritize speed and ease of use, will prefer AWS Comprehend, which provides a simpler way to getting an out-of-the-box approach to work on text classification.
+
+As a reference, we estimated that the cost of running sentiment analysis over 50M requests with the prebuilt model (over samples of ~1000 characters) would be around $11K. Substantially less than hiring a team of data scientists in the US. [Source](https://aws.amazon.com/comprehend/pricing/)
+
+Furthermore, the use of Amazon Comprehend offers additional benefits:
+
+* It's easy to integrate in any type of apps
+* You have the possibility of combining it with other AWS services, since the tool is embedded into the AWS infrastructure
+* You don't have to worry about scalability
+
+<br>
+
+<br>
+
+*Note*: Original Problem Statement: https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml/blob/master/Writeups/NLP:%20Text%20Classification.md
