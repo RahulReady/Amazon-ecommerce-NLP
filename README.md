@@ -42,7 +42,6 @@ The notebook is divided into two sections, both with the objective of classifyin
     a) Use the prebuilt model that Amazon Comprehend provides.
     Accuracy over sampled data: 81.64%
 
-
     b) Train a custom classifier with Amazon Comprehend tool. Used 990,000 reviews for training and 1000 for testing (max)
     Accuracy: 93.37%
 
