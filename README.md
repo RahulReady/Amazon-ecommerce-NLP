@@ -1,4 +1,4 @@
-# Amazon NLP Project
+# Amazon E-Commerce NLP Project
 
 ## Project Overview
 
