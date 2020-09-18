@@ -48,7 +48,7 @@ The notebook is divided into two sections, both with the objective of classifyin
 There is a clear interest in building a custom model, since there is a significant improvement in accuracy.
 <br><br>
 
-## There are a couple of ways to run the notebooks:
+## Run the notebooks:
 ### Option 1: Run the notebooks and download all the missing packages manually
 Running NLP_for_Customer_Reviews.ipynb: <br>
 execute command: `jupyter notebook NLP_for_Customer_Reviews.ipynb` <br>
